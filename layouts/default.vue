@@ -114,6 +114,10 @@ export default {
       rightDrawer: false,
       title: 'Vuetify.js'
     }
+  },
+  mounted(){
+    this.$router.push({
+      name: "blog"})
   }
 }
 </script>
